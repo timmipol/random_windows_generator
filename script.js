@@ -1,4 +1,4 @@
-let windows_list = [
+let windowsList = [
   ['Windows 1.0', 'https://static.wikia.nocookie.net/windows/images/8/88/Microsoft_Windows_logo_1985.svg'],
   ['Windows 2.0', 'https://static.wikia.nocookie.net/windows/images/8/88/Microsoft_Windows_logo_1985.svg'],
   ['Windows 3.0', 'https://static.wikia.nocookie.net/windows/images/8/88/Microsoft_Windows_logo_1985.svg'],
@@ -48,7 +48,7 @@ function getRandomElement(arr) {
 }
 
 function setRandomElement() {
-  let randomElement = getRandomElement(windows_list);
+  let randomElement = getRandomElement(windowsList);
   phrase.textContent = randomElement[0];
   if (randomElement.length > 40 ){
     advice.style.fontSize = '33px'
