@@ -1,7 +1,7 @@
 let windows_list = [
-  ['windows 1.0', 'https://static.wikia.nocookie.net/windows/images/8/88/Microsoft_Windows_logo_1985.svg/revision/latest?cb=20161012141957'],
-  ['windows 2.0', 'https://static.wikia.nocookie.net/windows/images/8/88/Microsoft_Windows_logo_1985.svg/revision/latest?cb=20161012141957'],
-  ['windows 3.0', 'https://static.wikia.nocookie.net/windows/images/8/88/Microsoft_Windows_logo_1985.svg/revision/latest?cb=20161012141957'],
+  ['windows 1.0', 'https://static.wikia.nocookie.net/windows/images/8/88/Microsoft_Windows_logo_1985.svg'],
+  ['windows 2.0', 'https://static.wikia.nocookie.net/windows/images/8/88/Microsoft_Windows_logo_1985.svg'],
+  ['windows 3.0', 'https://static.wikia.nocookie.net/windows/images/8/88/Microsoft_Windows_logo_1985.svg'],
   ['windows 3.1', 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Windows_logo_-_1992.svg/1200px-Windows_logo_-_1992.svg.png'],
   ['windows NT 3.1', 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Windows_logo_-_1992.svg/1200px-Windows_logo_-_1992.svg.png'],
   ['windows NT 3.5', 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f5ad18b7-74e3-42a4-a6c3-ed075ba5d058/dcnq9vn-5937a4f1-bee4-4937-abef-b413121284c3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y1YWQxOGI3LTc0ZTMtNDJhNC1hNmMzLWVkMDc1YmE1ZDA1OFwvZGNucTl2bi01OTM3YTRmMS1iZWU0LTQ5MzctYWJlZi1iNDEzMTIxMjg0YzMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.LWM_N0HdR8VsMNlq5N0IzrBKVlxBFNEJyaYndbVTveU'],
