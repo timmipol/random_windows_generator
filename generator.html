@@ -4,32 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Windows Random Generator Beta</title>
+  <title data-i18n="generator.title">Windows Random Generator Beta</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      
+    });
+  </script>
   <link rel="icon" type="image" href="https://upload.wikimedia.org/wikipedia/commons/6/6d/Windows_Logo_%281992-2001%29.svg">
-  <script src="http://i18njs.com/js/i18n.js"></script>
+  
 </head>
 <body>
-  <div class="header">
-    <p class="logo">Windows Random Generator (Beta)</p>
-    <!-- ua flag gif -->
-    <div class="flag flag-ua"></div>
-    <!-- ru flag gif -->
-    <div class="flag flag-ru"></div>
-    <!-- en flag gif -->
-    <div class="flag flag-en"></div>
-
+  <div>
+    <ul class="lang-picker">
+      <!-- es flag gif -->
+      <li class="flag flag-es" id="spanish"></li>
+      <!-- ua flag gif -->
+      <li class="flag flag-ua" id="ukrainian"></li>
+      <!-- ru flag gif -->
+      <li class="flag flag-ru" id="russian"></li>
+      <!-- en flag gif -->
+      <li class="flag flag-en" id="english"></li>
+    </ul>
   </div>
+  <div class="header">
+    <p class="logo" data-i18n="generator.header">Windows Random Generator (Beta)</p>
+  </div>
+  
 
   <img class="image" src="https://www.pngkey.com/png/full/14-146918_open-windows-10-icon-png.png">
 
   <div class="advice">
     <p><span class="phrase">Oops, error occured, try again, please.</span></p>
-    <span class="button">Next Random Windows</span>
+    <span class="button" data-i18n="generator.button">Next Random Windows</span>
   </div>
   
-  <p class="footer">© 2021 Made By Timmipol</p>
+  <p class="footer" data-i18n="generator.footer">© 2021 Made By Timmipol</p>
 
   <script src="script.js"></script>
+  <script src="i18n.js"></script>
+  <script src="l18n.js"></script>
 </body>
 </html>

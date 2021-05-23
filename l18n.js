@@ -1,29 +1,29 @@
-en = i18n.create({
-  values: {
-    "title":"Windows Random Generator (Beta)",
-    "header": "Windows Random Generator (Beta)",
-    "error": "Oops, error occured, try again, please." ,
-    "button": "Next Random Windows",
-    "footer": "© 2021 Made By Timmipol"
-}
-})
-  
-ru = i18n.create({
-  values: {
-    "title":"Генератор рандомных Windows (Beta)",
-    "header": "Генератор рандомных Windows (Beta)",
-    "error": "Ой, случилась ошибка, попробуйте снова." ,
-    "button": "Следующий рандомный Windows",
-    "footer": "© 2021 Сделал Timmipol"
-  }
-})
+$( document ).ready( function () {
 
-ua = i18n.create({
-  values: {
-    "title":"Генератор рандомних Windows (Beta)",
-    "header": "Генератор рандомних Windows (Beta)",
-    "error": "Ой, трапилася помилка, спробуйте ще раз." ,
-    "button": "Наступний рандомний Windows",
-    "footer": "© 2021 Зробив Timmipol"
-  }
-})
+	var i18n = new I18n();
+	i18n.localize();
+	$('.lang-picker #english').addClass('selected');
+
+  $('.lang-picker #russian').on('click', function () {
+		i18n.lang('ru');
+		selectLang($(this));
+	})
+	
+	$('.lang-picker #ukrainian').on('click', function () {
+		i18n.lang('ua');
+		selectLang($(this));
+	})
+	$('.lang-picker #english').on('click', function () {
+		i18n.lang('en');
+		selectLang($(this));
+	})
+	$('.lang-picker #spanish').on('click', function () {
+		i18n.lang('es');
+		selectLang($(this));
+	})
+
+	function selectLang (picker) {
+		$('.lang-picker li').removeClass('selected');
+		picker.addClass('selected');
+	}
+});

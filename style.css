@@ -33,6 +33,7 @@ body {
   display: block;
   align-items: baseline;
   justify-content: space-between;
+  padding-top: 30px;
 }
 
 .logo {
@@ -81,6 +82,12 @@ body {
   bottom: 36px;
 }
 
+.lang-picker li {
+	list-style: none;
+	display: inline-block;
+  cursor: pointer;
+}
+
 .flag {
   background-repeat: no-repeat;
   background-size: contain;
@@ -108,5 +115,12 @@ body {
   background-image: url(images/flags/ua.gif);
 }
 .flag-ua:hover {
+  background-image: url(images/flags/ua-ani.gif);
+}
+
+.flag-es {
+  background-image: url(images/flags/ua.gif);
+}
+.flag-es:hover {
   background-image: url(images/flags/ua-ani.gif);
 }
