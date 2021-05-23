@@ -8,7 +8,7 @@ let windowsList = [
   ['Windows NT 3.51', 'images/windows_icons/Windows_NT_%203_5.png'],
   ['Windows Chicago', 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Windows_Logo_%281992-2001%29.svg'],
   ['Windows 95', 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Windows_Logo_%281992-2001%29.svg'],
-  ['Windows Nashville (windows 96)', 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Windows_Logo_%281992-2001%29.svg'],
+  ['Windows Nashville (Windows 96)', 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Windows_Logo_%281992-2001%29.svg'],
   ['Windows NT 4.0', 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Windows_Logo_%281992-2001%29.svg'],
   ['Windows NT 5.0', 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Windows_Logo_%281992-2001%29.svg'],
   ['Windows Memphis', 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Windows_Logo_%281992-2001%29.svg/1200px-Windows_Logo_%281992-2001%29.svg.png'],
@@ -38,7 +38,7 @@ let windowsList = [
 
 let button = document.querySelector('.button');
 let phrase = document.querySelector('.phrase');
-let advice = document.querySelector('.advice');
+let text = document.querySelector('.text');
 let image = document.querySelector('.image');
 
 
@@ -51,7 +51,7 @@ function setRandomElement() {
   let randomElement = getRandomElement(windowsList);
   phrase.textContent = randomElement[0];
   if (randomElement.length > 40 ){
-    advice.style.fontSize = '33px'
+    text.style.fontSize = '33px'
   }
   image.setAttribute('src', randomElement[1])
 }
