@@ -119,8 +119,8 @@ body {
 }
 
 .flag-es {
-  background-image: url(images/flags/ua.gif);
+  background-image: url(images/flags/es.gif);
 }
 .flag-es:hover {
-  background-image: url(images/flags/ua-ani.gif);
+  background-image: url(images/flags/es-ani.gif);
 }
