@@ -35,29 +35,37 @@ let windowsList = [
   ['Windows Server 2019', 'https://www.pngkey.com/png/full/14-146918_open-windows-10-icon-png.png']
 ];
 
-
-let button = document.querySelector('.button');
-let phrase = document.querySelector('.phrase');
-let text = document.querySelector('.text');
-let image = document.querySelector('.image');
-
-
-function getRandomElement(arr) {
-  let randIndex = Math.floor(Math.random() * arr.length);
-  return arr[randIndex];
-}
-
 function setRandomElement() {
-  let randomElement = getRandomElement(windowsList);
+  let phrase = document.querySelector('.phrase');
+  let text = document.querySelector('.text');
+  let image = document.querySelector('.image');
+  let randIndex = Math.floor(Math.random() * windowsList.length);
+  let randomElement = windowsList[randIndex];
+  
   phrase.textContent = randomElement[0];
-  if (randomElement.length > 40 ){
+  if (randomElement.length > 40) {
     text.style.fontSize = '33px'
   }
   image.setAttribute('src', randomElement[1])
 }
 
-setRandomElement();
+$(document).ready(function () {
+  let button = document.querySelector('.button');
+  let i18n = new I18n();
 
-button.addEventListener('click', function () {
+  i18n.localize();
+  $('.lang-picker #en').addClass('selected');
+  setRandomElement();
+
+  $('.lang-picker li').each(function () {
+    $(this).click(function () {
+      $('.lang-picker li').removeClass('selected');
+      $(this).addClass('selected');
+      i18n.lang($(this).attr('id'));
+    });
+  });
+
+  button.addEventListener('click', function () {
     setRandomElement();
+  });
 });

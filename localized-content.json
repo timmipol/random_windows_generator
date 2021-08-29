@@ -3,31 +3,25 @@
 		"title": {
 			"en": "Windows Random Generator (Beta)",
 			"ru": "Генератор рандомных Windows (Beta)",
-      "ua": "Генератор рандомних Windows (Beta)",
+			"ua": "Генератор рандомних Windows (Beta)",
 			"es": "Generador aleatorio de Windows (Beta)"
 		},
 		"header": {
 			"en": "Windows Random Generator (Beta)",
 			"ru": "Генератор рандомных Windows (Beta)",
-      "ua": "Генератор рандомних Windows (Beta)",
+			"ua": "Генератор рандомних Windows (Beta)",
 			"es": "Generador aleatorio de Windows (Beta)"
 		},
-		"error": {
-			"en": "Oops, error occured, try again, please.",
-			"ru": "Ой, случилась ошибка, попробуйте снова.",
-      "ua": "Ой, трапилася помилка, спробуйте ще раз.",
-			"es": "¡Ahora así, la han cagado! Vuelva a intentarlo, por favor."
-		},
-    "button": {
+		"button": {
 			"en": "Next Random Windows",
 			"ru": "Следующий рандомный Windows",
-      "ua": "Наступний рандомний Windows",
+			"ua": "Наступний рандомний Windows",
 			"es": "Siguiente Windows aleatorio"
 		},
-    "footer": {
+		"footer": {
 			"en": "© 2021 Made By Timmipol",
 			"ru": "© 2021 Сделал Timmipol",
-      "ua": "© 2021 Зробив Timmipol",
+			"ua": "© 2021 Зробив Timmipol",
 			"es": "© 2021 Hecho por Timmipol"
 		}
 	}
